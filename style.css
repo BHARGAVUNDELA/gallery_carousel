@@ -5,7 +5,7 @@
 }
 
 html {
-    font-size: 35px;
+    font-size: 14px;
     font-family: 'Times New Roman', Times, serif;
     scroll-behavior: smooth;
 }
@@ -15,7 +15,7 @@ body {
 }
 
 h2 {
-    font-size: 35px;
+    font-size: 1.4rem;
     letter-spacing: 0.35rem;
     justify-content: space-between;
     margin: 35px;
