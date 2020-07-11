@@ -5,22 +5,23 @@
 }
 
 html {
-    font-size: 14px;
+    font-size: 35px;
     font-family: 'Times New Roman', Times, serif;
     scroll-behavior: smooth;
 }
 
 body {
+    height: 95vh;
     background: linear-gradient(to top right, #f08de3, #83b1ee, #a9f09b);
 }
 
 h2 {
-    font-size: 1.4rem;
-    letter-spacing: 0.35rem;
+    font-size: 25px;
+    letter-spacing: 0.14rem;
     justify-content: space-between;
     margin: 35px;
     padding: auto;
-    margin-bottom: 55px;
+    margin-bottom: 45px;
     text-transform: uppercase;
     color: crimson;
     left: 300px;
@@ -28,8 +29,8 @@ h2 {
 
 .carousel {
     position: relative;
-    height: 550px;
-    width: 80%;
+    height: 60%;
+    width: 75%;
     margin: 0 auto;
 }
 
@@ -110,4 +111,22 @@ h2 {
 
 .is-hidden {
     display: none;
+}
+
+@media only screen and (min-width: 700px) {
+    .carousel {
+        position: relative;
+        height: 70%;
+        width: 80%;
+        margin: 0 auto;
+    }
+}
+
+@media only screen and (min-width: 1024px) {
+    .carousel {
+        position: relative;
+        height: 80%;
+        width: 80%;
+        margin: 0 auto;
+    }
 }
