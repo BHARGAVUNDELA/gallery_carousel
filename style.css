@@ -21,17 +21,16 @@ h2 {
     justify-content: space-between;
     margin: 35px;
     padding: auto;
-    margin-bottom: 45px;
+    margin-bottom: 70px;
     text-transform: uppercase;
     color: crimson;
-    left: 300px;
 }
 
 .carousel {
     position: relative;
     height: 60%;
     width: 75%;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .carousel__image {
@@ -114,6 +113,9 @@ h2 {
 }
 
 @media only screen and (min-width: 700px) {
+    h2 {
+        margin-bottom: 45px;
+    }
     .carousel {
         position: relative;
         height: 70%;
